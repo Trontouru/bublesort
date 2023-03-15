@@ -16,7 +16,6 @@ def BubbleSort(array):
     return a
 
 
-n = int(input())
 a = list(map(int, input().split()))
 BubbleSort(a)
 print(*a)
